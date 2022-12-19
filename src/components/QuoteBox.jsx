@@ -15,6 +15,8 @@ const QuoteBox = () => {
         setIndex(newRandom);
     }
 
+    //Colores para fondo
+
     const colors = ["#F8BBD0", "#D32F2F", "#FFECB3", "#FFCCBC", "#D1C4E9", "#BBDEFB", "#1976D2", "#D7CCC8", "#5D4037", "#DCEDC8", "#689F38", "#CFD8DC"]
     const randomColor = Math.floor(Math.random() * colors.length);
     document.body.style = `background: ${colors [randomColor]}`
